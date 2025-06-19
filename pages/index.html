@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Por nossas veias corre a inovação e compromisso com a oferta de tecnologias de primeira">
+    <meta name="keywords" content="Rubra Technologies, Rubra, Início, Index, Home">
+    <meta name="author" content="Patrick Melo">
+    <title>Rubra Technologies - Página inicial</title>
+    <link rel="icon" type="image/x-icon" href="/img/red_rubra_logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logotype">
+            <a href="index.html">
+                <img src="img/red_rubra_logotype.png" alt="Logo da Rubra Technologies, um lírio vermelho com o texto Rubra Technologies embaixo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="angel.html">Traduzir planilhas com Angel</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header_buttons">
+            <button class="google_button">
+                <img src="img/google_logo.png" alt="Google" class="google_icon">
+                Entrar
+            </button>
+        </div>
+    </header>
+    <h1>Rubra Technologies</h1>
+    <p>Por nossas veias corre a inovação e compromisso com a oferta de tecnologias de primeira</p>
+    <div class="carousel">
+        <img src="img/colored_rubra_logo.png" class="active">
+        <img src="img/bw_rubra_logo.png">
+        <img src="img/google_logo.png">
+        <button class="carousel-control prev">&#9664;</button>
+        <button class="carousel-control next">&#9654;</button>
+    </div>
+    <main>
+
+    </main>
+    <footer>
+        <h2 style="grid-column: 1 / 2; grid-row: 1 / 2;">Informações e comunicação</h2>
+        <h2 style="grid-column: 2 / 3; grid-row: 1 / 2;">Saiba mais sobre nós</h2>
+        <hr style="grid-column: 1 / 3;  grid-row: 2 / 3;" >
+        <ul id="list_footer1" style="grid-column: 1 / 2; grid-row: 3 / 4;">
+            <li><a href="contact_us.html">Contato</a></li>
+            <li><a href="terms_and_conditions.html">Termos e Condições</a></li>
+            <li><a href="privacy_police.html">Política de privacidade</a></li>
+            <li><a href="support.html">Suporte</a></li>
+        </ul>
+        <ul id="list_footer2" style="grid-column: 2 / 3; grid-row: 3 / 4;">
+            <li><a href="our_contributors.html">Nossos Contribuidores</a></li>
+            <li><a href="about.html">Sobre</a></li>
+        </ul>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                ordenarListaPorTexto("#list_footer1");
+                ordenarListaPorTexto("#list_footer2");
+            });
+        </script>
+    </footer>
+</body>
+</html>
